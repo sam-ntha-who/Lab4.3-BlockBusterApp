@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DVD extends Movie {
@@ -18,7 +18,7 @@ public class DVD extends Movie {
 		
 		
 		System.out.println("Which scene would you like to watch?");
-		System.out.println(getScenes());
+		printScenes();
 		System.out.println("Please choose a scene (by number):");
 		Scanner scnr = new Scanner(System.in);
 		int sceneSelection = scnr.nextInt()-1;

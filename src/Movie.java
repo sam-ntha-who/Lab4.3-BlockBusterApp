@@ -49,13 +49,13 @@ public abstract class Movie {
 	}
 
 //	A method called printScenes() that prints all the scenes in the list along with their index. 
-	public ArrayList<String> printScenes() {
+	public void printScenes() {
 		scenes = getScenes();
 		for (int i = 0; i < getScenes().size(); i++) {
 			System.out.println("Scene " + (i+1) + ": " + getScenes().get(i));
 		}
 		
-		return null;
+		
 	}
 
 //	An abstract method with no return type called play() 
